@@ -26,3 +26,4 @@ if st.button("Submit"):
     st.write(f"The prediction is {response.json()["prediction"]}")
 
 
+# In the terminal just run streamlit run app.py --server.port 4000  and it will run this on port 4000
